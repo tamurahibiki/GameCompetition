@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Kabe.cpp" />
+    <ClCompile Include="Yuka.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Ear.cpp" />
+    <ClCompile Include="Mura.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Miss.cpp" />
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Game_Over.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Game_Clear.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Kabe.h" />
+    <ClInclude Include="Yuka.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Ear.h" />
+    <ClInclude Include="Mura.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Miss.h" />
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Game_Over.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Game_Clear.h" />
+  </ItemGroup>
+</Project>
